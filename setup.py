@@ -3,7 +3,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="snaptogetherdaniel",
+    name="togetherdaniel",
     version="0.0.1",
     author="Daniel Mutis",
     author_email="daniel.mutis@canonical.com",
