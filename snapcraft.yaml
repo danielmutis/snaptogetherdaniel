@@ -1,0 +1,18 @@
+name: snaptogetherdaniel
+version: 0.0.1
+summary: Just a test python snap
+description: >
+  Just a test python snap
+
+confinement: strict
+base: core18
+
+parts:
+  test-snaptogetherdaniel:
+    plugin: python
+    python-version: python3
+    source: .
+
+apps:
+  test-snaptogetherdaniel:
+    command: python3 test_snap.py
